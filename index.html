@@ -1,0 +1,1942 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta
+        name="description"
+        content="LuxeBean — premium specialty coffee crafted for unforgettable moments."
+    >
+
+    <meta name="theme-color" content="#0b0907">
+
+    <title>LuxeBean — Premium Coffee Experience</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700;800&display=swap"
+        rel="stylesheet"
+    >
+
+    <!-- Font Awesome Icons -->
+    <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    >
+
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- =========================================
+         PRELOADER
+    ========================================== -->
+
+    <div class="preloader" id="preloader">
+
+        <div class="loader-content">
+
+            <div class="loader-logo">
+                <span class="logo-bean">☕</span>
+                <span>LuxeBean</span>
+            </div>
+
+            <div class="loader-line">
+                <span></span>
+            </div>
+
+            <p>Crafting your coffee experience...</p>
+
+        </div>
+
+    </div>
+
+
+    <!-- =========================================
+         CUSTOM CURSOR
+    ========================================== -->
+
+    <div class="cursor-dot"></div>
+    <div class="cursor-outline"></div>
+
+
+    <!-- =========================================
+         NAVIGATION
+    ========================================== -->
+
+    <header class="site-header" id="siteHeader">
+
+        <nav class="navbar container">
+
+            <!-- Logo -->
+
+            <a href="#home" class="brand-logo">
+
+                <span class="brand-icon">
+                    <i class="fa-solid fa-mug-hot"></i>
+                </span>
+
+                <span class="brand-text">
+                    Luxe<span>Bean</span>
+                </span>
+
+            </a>
+
+
+            <!-- Desktop Navigation -->
+
+            <ul class="nav-links">
+
+                <li>
+                    <a href="#home" class="nav-link active">Home</a>
+                </li>
+
+                <li>
+                    <a href="#story" class="nav-link">Our Story</a>
+                </li>
+
+                <li>
+                    <a href="#menu" class="nav-link">Menu</a>
+                </li>
+
+                <li>
+                    <a href="#experience" class="nav-link">Experience</a>
+                </li>
+
+                <li>
+                    <a href="#contact" class="nav-link">Contact</a>
+                </li>
+
+            </ul>
+
+
+            <!-- Navigation Actions -->
+
+            <div class="nav-actions">
+
+                <button
+                    class="nav-icon-btn search-btn"
+                    id="searchBtn"
+                    aria-label="Search"
+                >
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </button>
+
+                <button
+                    class="nav-icon-btn cart-btn"
+                    id="cartBtn"
+                    aria-label="Shopping cart"
+                >
+                    <i class="fa-solid fa-bag-shopping"></i>
+                    <span class="cart-count" id="cartCount">0</span>
+                </button>
+
+                <a href="#menu" class="nav-cta">
+                    Order Now
+                    <i class="fa-solid fa-arrow-right"></i>
+                </a>
+
+                <button
+                    class="mobile-menu-btn"
+                    id="mobileMenuBtn"
+                    aria-label="Open menu"
+                >
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+
+            </div>
+
+        </nav>
+
+
+        <!-- Mobile Navigation -->
+
+        <div class="mobile-menu" id="mobileMenu">
+
+            <a href="#home">Home</a>
+            <a href="#story">Our Story</a>
+            <a href="#menu">Menu</a>
+            <a href="#experience">Experience</a>
+            <a href="#contact">Contact</a>
+
+            <a href="#menu" class="mobile-order-btn">
+                Order Now
+            </a>
+
+        </div>
+
+    </header>
+
+
+
+    <!-- =========================================
+         SEARCH OVERLAY
+    ========================================== -->
+
+    <div class="search-overlay" id="searchOverlay">
+
+        <div class="search-container">
+
+            <button
+                class="close-search"
+                id="closeSearch"
+                aria-label="Close search"
+            >
+                <i class="fa-solid fa-xmark"></i>
+            </button>
+
+            <span class="search-label">WHAT ARE YOU CRAVING?</span>
+
+            <div class="search-box">
+
+                <input
+                    type="text"
+                    id="searchInput"
+                    placeholder="Search coffee, pastries..."
+                    autocomplete="off"
+                >
+
+                <i class="fa-solid fa-magnifying-glass"></i>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+    <!-- =========================================
+         HERO SECTION
+    ========================================== -->
+
+    <main>
+
+        <section class="hero-section" id="home">
+
+            <!-- Background glow -->
+
+            <div class="hero-glow hero-glow-one"></div>
+            <div class="hero-glow hero-glow-two"></div>
+
+
+            <!-- Decorative particles -->
+
+            <div class="hero-particles">
+
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+
+            </div>
+
+
+            <div class="container hero-container">
+
+                <!-- Hero Content -->
+
+                <div class="hero-content">
+
+                    <div class="eyebrow">
+
+                        <span class="eyebrow-line"></span>
+
+                        <span>
+                            SPECIALTY COFFEE · EST. 2014
+                        </span>
+
+                    </div>
+
+
+                    <h1 class="hero-title">
+
+                        Coffee,
+                        <span>Elevated.</span>
+
+                    </h1>
+
+
+                    <p class="hero-description">
+
+                        Discover beautifully crafted specialty coffee,
+                        roasted with intention and served with an
+                        obsession for every little detail.
+
+                    </p>
+
+
+                    <div class="hero-buttons">
+
+                        <a href="#menu" class="primary-btn">
+
+                            Explore Menu
+
+                            <span class="btn-icon">
+                                <i class="fa-solid fa-arrow-right"></i>
+                            </span>
+
+                        </a>
+
+
+                        <a href="#story" class="secondary-btn">
+
+                            <span class="play-icon">
+                                <i class="fa-solid fa-play"></i>
+                            </span>
+
+                            Our Story
+
+                        </a>
+
+                    </div>
+
+
+                    <!-- Hero Stats -->
+
+                    <div class="hero-stats">
+
+                        <div class="hero-stat">
+
+                            <strong>12+</strong>
+
+                            <span>
+                                Years of<br>
+                                Craft
+                            </span>
+
+                        </div>
+
+
+                        <div class="stat-divider"></div>
+
+
+                        <div class="hero-stat">
+
+                            <strong>28</strong>
+
+                            <span>
+                                Origin<br>
+                                Profiles
+                            </span>
+
+                        </div>
+
+
+                        <div class="stat-divider"></div>
+
+
+                        <div class="hero-stat">
+
+                            <strong>4.9</strong>
+
+                            <span>
+                                Guest<br>
+                                Rating
+                            </span>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+
+                <!-- Hero 3D Product -->
+
+                <div class="hero-visual">
+
+                    <div class="hero-orbit orbit-one"></div>
+                    <div class="hero-orbit orbit-two"></div>
+
+
+                    <!-- Floating bean -->
+
+                    <div class="floating-bean bean-one">
+                        <span>●</span>
+                    </div>
+
+                    <div class="floating-bean bean-two">
+                        <span>●</span>
+                    </div>
+
+                    <div class="floating-bean bean-three">
+                        <span>●</span>
+                    </div>
+
+
+                    <!-- Main Product -->
+
+                    <div class="hero-product">
+
+                        <div class="product-shadow"></div>
+
+
+                        <div class="coffee-card">
+
+                            <div class="coffee-card-top">
+
+                                <span class="coffee-origin">
+                                    SINGLE ORIGIN
+                                </span>
+
+                                <span class="coffee-number">
+                                    01
+                                </span>
+
+                            </div>
+
+
+                            <div class="coffee-image-wrapper">
+
+                                <img
+                                    src="https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?auto=format&fit=crop&w=1000&q=90"
+                                    alt="Freshly brewed specialty coffee"
+                                    class="hero-coffee-image"
+                                >
+
+                                <div class="image-shine"></div>
+
+                            </div>
+
+
+                            <div class="coffee-card-info">
+
+                                <div>
+
+                                    <span class="small-label">
+                                        SIGNATURE ROAST
+                                    </span>
+
+                                    <h3>
+                                        Velvet Espresso
+                                    </h3>
+
+                                </div>
+
+                                <span class="coffee-price">
+                                    $6.50
+                                </span>
+
+                            </div>
+
+                        </div>
+
+
+                        <!-- Floating rating -->
+
+                        <div class="floating-rating glass-card">
+
+                            <div class="rating-icon">
+                                <i class="fa-solid fa-star"></i>
+                            </div>
+
+                            <div>
+
+                                <strong>4.9</strong>
+
+                                <span>
+                                    Loved by coffee people
+                                </span>
+
+                            </div>
+
+                        </div>
+
+
+                        <!-- Floating origin card -->
+
+                        <div class="floating-origin glass-card">
+
+                            <span class="origin-icon">
+                                <i class="fa-solid fa-location-dot"></i>
+                            </span>
+
+                            <div>
+
+                                <small>ORIGIN</small>
+
+                                <strong>
+                                    Colombia
+                                </strong>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- Scroll indicator -->
+
+            <a href="#story" class="scroll-indicator">
+
+                <span class="scroll-text">
+                    SCROLL TO DISCOVER
+                </span>
+
+                <span class="scroll-line"></span>
+
+            </a>
+
+        </section>
+
+
+
+        <!-- =========================================
+             MARQUEE
+        ========================================== -->
+
+        <section class="marquee-section">
+
+            <div class="marquee-track">
+
+                <span>ETHICALLY SOURCED</span>
+                <span class="marquee-dot">✦</span>
+
+                <span>SMALL BATCH ROASTED</span>
+                <span class="marquee-dot">✦</span>
+
+                <span>CRAFTED WITH PASSION</span>
+                <span class="marquee-dot">✦</span>
+
+                <span>EXCEPTIONAL EVERY DAY</span>
+                <span class="marquee-dot">✦</span>
+
+                <span>ETHICALLY SOURCED</span>
+                <span class="marquee-dot">✦</span>
+
+                <span>SMALL BATCH ROASTED</span>
+                <span class="marquee-dot">✦</span>
+
+                <span>CRAFTED WITH PASSION</span>
+                <span class="marquee-dot">✦</span>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- =========================================
+             OUR STORY
+        ========================================== -->
+
+        <section class="story-section section-padding" id="story">
+
+            <div class="container">
+
+                <div class="section-header">
+
+                    <div class="eyebrow">
+
+                        <span class="eyebrow-line"></span>
+
+                        <span>
+                            THE LUXEBEAN STORY
+                        </span>
+
+                    </div>
+
+                    <h2>
+                        More than coffee.
+                        <span>A ritual.</span>
+                    </h2>
+
+                </div>
+
+
+                <div class="story-grid">
+
+
+                    <!-- Story Visual -->
+
+                    <div class="story-visual">
+
+                        <div class="story-image-main">
+
+                            <img
+                                src="https://images.unsplash.com/photo-1445116572660-236099ec97a0?auto=format&fit=crop&w=1200&q=90"
+                                alt="LuxeBean coffee shop interior"
+                                loading="lazy"
+                            >
+
+                        </div>
+
+
+                        <div class="story-image-small">
+
+                            <img
+                                src="https://images.unsplash.com/photo-1447933601403-0c6688de566e?auto=format&fit=crop&w=800&q=90"
+                                alt="Fresh coffee beans"
+                                loading="lazy"
+                            >
+
+                        </div>
+
+
+                        <div class="experience-badge">
+
+                            <span class="badge-number">
+                                12
+                            </span>
+
+                            <span class="badge-text">
+                                YEARS OF<br>
+                                COFFEE CRAFT
+                            </span>
+
+                        </div>
+
+                    </div>
+
+
+                    <!-- Story Content -->
+
+                    <div class="story-content">
+
+                        <span class="story-number">
+                            01
+                        </span>
+
+                        <h3>
+                            Born from a love
+                            <em>of the bean.</em>
+                        </h3>
+
+                        <p>
+
+                            LuxeBean began with one simple belief:
+                            exceptional coffee has the power to turn
+                            ordinary moments into something memorable.
+
+                        </p>
+
+                        <p>
+
+                            From carefully selected farms to our
+                            small-batch roasting process, every step
+                            is considered. Every cup tells a story
+                            of origin, craftsmanship and passion.
+
+                        </p>
+
+
+                        <a href="#experience" class="text-link">
+
+                            Discover our journey
+
+                            <span>
+                                <i class="fa-solid fa-arrow-right"></i>
+                            </span>
+
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- =========================================
+             SIGNATURE MENU
+        ========================================== -->
+
+        <section class="menu-section section-padding" id="menu">
+
+            <div class="container">
+
+
+                <div class="section-header centered">
+
+                    <div class="eyebrow">
+
+                        <span class="eyebrow-line"></span>
+
+                        <span>
+                            SIGNATURE SELECTION
+                        </span>
+
+                        <span class="eyebrow-line"></span>
+
+                    </div>
+
+                    <h2>
+                        Made to be
+                        <span>savored.</span>
+                    </h2>
+
+                    <p>
+                        A carefully curated menu for every kind
+                        of coffee moment.
+                    </p>
+
+                </div>
+
+
+                <!-- Menu Filters -->
+
+                <div class="menu-filters">
+
+                    <button
+                        class="filter-btn active"
+                        data-filter="all"
+                    >
+                        All
+                    </button>
+
+                    <button
+                        class="filter-btn"
+                        data-filter="coffee"
+                    >
+                        Coffee
+                    </button>
+
+                    <button
+                        class="filter-btn"
+                        data-filter="cold"
+                    >
+                        Cold
+                    </button>
+
+                    <button
+                        class="filter-btn"
+                        data-filter="pastry"
+                    >
+                        Pastries
+                    </button>
+
+                </div>
+
+
+                <!-- Menu Grid -->
+
+                <div class="menu-grid" id="menuGrid">
+
+
+                    <!-- Product 01 -->
+
+                    <article
+                        class="menu-card"
+                        data-category="coffee"
+                        data-name="Velvet Espresso"
+                    >
+
+                        <div class="menu-card-image">
+
+                            <span class="product-tag">
+                                SIGNATURE
+                            </span>
+
+                            <img
+                                src="https://images.unsplash.com/photo-1514432324607-a09d9b4aefdd?auto=format&fit=crop&w=900&q=90"
+                                alt="Velvet Espresso"
+                                loading="lazy"
+                            >
+
+                            <button
+                                class="quick-add"
+                                data-name="Velvet Espresso"
+                                data-price="6.50"
+                            >
+                                <i class="fa-solid fa-plus"></i>
+                            </button>
+
+                        </div>
+
+
+                        <div class="menu-card-content">
+
+                            <div>
+
+                                <span class="product-category">
+                                    ESPRESSO
+                                </span>
+
+                                <h3>
+                                    Velvet Espresso
+                                </h3>
+
+                                <p>
+                                    Rich crema, dark chocolate,
+                                    toasted almond.
+                                </p>
+
+                            </div>
+
+                            <strong>
+                                $6.50
+                            </strong>
+
+                        </div>
+
+                    </article>
+
+
+
+                    <!-- Product 02 -->
+
+                    <article
+                        class="menu-card"
+                        data-category="coffee"
+                        data-name="Silk Latte"
+                    >
+
+                        <div class="menu-card-image">
+
+                            <span class="product-tag new">
+                                POPULAR
+                            </span>
+
+                            <img
+                                src="https://images.unsplash.com/photo-1561882468-9110e03e0f78?auto=format&fit=crop&w=900&q=90"
+                                alt="Silk Latte"
+                                loading="lazy"
+                            >
+
+                            <button
+                                class="quick-add"
+                                data-name="Silk Latte"
+                                data-price="7.25"
+                            >
+                                <i class="fa-solid fa-plus"></i>
+                            </button>
+
+                        </div>
+
+
+                        <div class="menu-card-content">
+
+                            <div>
+
+                                <span class="product-category">
+                                    MILK COFFEE
+                                </span>
+
+                                <h3>
+                                    Silk Latte
+                                </h3>
+
+                                <p>
+                                    Velvety microfoam with
+                                    caramel sweetness.
+                                </p>
+
+                            </div>
+
+                            <strong>
+                                $7.25
+                            </strong>
+
+                        </div>
+
+                    </article>
+
+
+
+                    <!-- Product 03 -->
+
+                    <article
+                        class="menu-card"
+                        data-category="cold"
+                        data-name="Cold Brew"
+                    >
+
+                        <div class="menu-card-image">
+
+                            <img
+                                src="https://images.unsplash.com/photo-1517701604599-bb29b565090c?auto=format&fit=crop&w=900&q=90"
+                                alt="Cold brew coffee"
+                                loading="lazy"
+                            >
+
+                            <button
+                                class="quick-add"
+                                data-name="Signature Cold Brew"
+                                data-price="7.00"
+                            >
+                                <i class="fa-solid fa-plus"></i>
+                            </button>
+
+                        </div>
+
+
+                        <div class="menu-card-content">
+
+                            <div>
+
+                                <span class="product-category">
+                                    COLD COFFEE
+                                </span>
+
+                                <h3>
+                                    Signature Cold Brew
+                                </h3>
+
+                                <p>
+                                    Slow-steeped for a smooth,
+                                    naturally sweet finish.
+                                </p>
+
+                            </div>
+
+                            <strong>
+                                $7.00
+                            </strong>
+
+                        </div>
+
+                    </article>
+
+
+
+                    <!-- Product 04 -->
+
+                    <article
+                        class="menu-card"
+                        data-category="coffee"
+                        data-name="Cortado"
+                    >
+
+                        <div class="menu-card-image">
+
+                            <img
+                                src="https://images.unsplash.com/photo-1461023058943-07fcbe16d735?auto=format&fit=crop&w=900&q=90"
+                                alt="Cortado coffee"
+                                loading="lazy"
+                            >
+
+                            <button
+                                class="quick-add"
+                                data-name="Golden Cortado"
+                                data-price="6.75"
+                            >
+                                <i class="fa-solid fa-plus"></i>
+                            </button>
+
+                        </div>
+
+
+                        <div class="menu-card-content">
+
+                            <div>
+
+                                <span class="product-category">
+                                    ESPRESSO
+                                </span>
+
+                                <h3>
+                                    Golden Cortado
+                                </h3>
+
+                                <p>
+                                    Balanced espresso with
+                                    warm caramel notes.
+                                </p>
+
+                            </div>
+
+                            <strong>
+                                $6.75
+                            </strong>
+
+                        </div>
+
+                    </article>
+
+
+
+                    <!-- Product 05 -->
+
+                    <article
+                        class="menu-card"
+                        data-category="cold"
+                        data-name="Iced Mocha"
+                    >
+
+                        <div class="menu-card-image">
+
+                            <span class="product-tag">
+                                FAVORITE
+                            </span>
+
+                            <img
+                                src="https://images.unsplash.com/photo-1461023058943-07fcbe16d735?auto=format&fit=crop&w=900&q=90"
+                                alt="Iced mocha"
+                                loading="lazy"
+                            >
+
+                            <button
+                                class="quick-add"
+                                data-name="Iced Mocha"
+                                data-price="7.50"
+                            >
+                                <i class="fa-solid fa-plus"></i>
+                            </button>
+
+                        </div>
+
+
+                        <div class="menu-card-content">
+
+                            <div>
+
+                                <span class="product-category">
+                                    COLD COFFEE
+                                </span>
+
+                                <h3>
+                                    Iced Mocha
+                                </h3>
+
+                                <p>
+                                    Chocolate, espresso and
+                                    silky chilled milk.
+                                </p>
+
+                            </div>
+
+                            <strong>
+                                $7.50
+                            </strong>
+
+                        </div>
+
+                    </article>
+
+
+
+                    <!-- Product 06 -->
+
+                    <article
+                        class="menu-card"
+                        data-category="pastry"
+                        data-name="Butter Croissant"
+                    >
+
+                        <div class="menu-card-image">
+
+                            <img
+                                src="https://images.unsplash.com/photo-1555507036-ab1f4038808a?auto=format&fit=crop&w=900&q=90"
+                                alt="Fresh butter croissant"
+                                loading="lazy"
+                            >
+
+                            <button
+                                class="quick-add"
+                                data-name="Butter Croissant"
+                                data-price="5.25"
+                            >
+                                <i class="fa-solid fa-plus"></i>
+                            </button>
+
+                        </div>
+
+
+                        <div class="menu-card-content">
+
+                            <div>
+
+                                <span class="product-category">
+                                    BAKERY
+                                </span>
+
+                                <h3>
+                                    Butter Croissant
+                                </h3>
+
+                                <p>
+                                    Golden, flaky and baked
+                                    fresh every morning.
+                                </p>
+
+                            </div>
+
+                            <strong>
+                                $5.25
+                            </strong>
+
+                        </div>
+
+                    </article>
+
+                </div>
+
+
+                <div class="menu-footer">
+
+                    <a href="#" class="outline-btn">
+
+                        View Full Menu
+
+                        <i class="fa-solid fa-arrow-right"></i>
+
+                    </a>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- =========================================
+             EXPERIENCE SECTION
+        ========================================== -->
+
+        <section
+            class="experience-section section-padding"
+            id="experience"
+        >
+
+            <div class="container">
+
+                <div class="experience-grid">
+
+
+                    <!-- Experience Text -->
+
+                    <div class="experience-content">
+
+                        <div class="eyebrow">
+
+                            <span class="eyebrow-line"></span>
+
+                            <span>
+                                THE LUXEBEAN EXPERIENCE
+                            </span>
+
+                        </div>
+
+
+                        <h2>
+                            Where every cup
+                            <span>becomes a moment.</span>
+                        </h2>
+
+
+                        <p>
+                            Step inside a space designed to slow
+                            everything down. Warm light, beautiful
+                            aromas and coffee made exactly the way
+                            you like it.
+                        </p>
+
+
+                        <div class="experience-features">
+
+                            <div class="experience-feature">
+
+                                <span class="feature-icon">
+                                    <i class="fa-solid fa-seedling"></i>
+                                </span>
+
+                                <div>
+
+                                    <h4>
+                                        Ethical Sourcing
+                                    </h4>
+
+                                    <p>
+                                        Direct relationships with
+                                        exceptional coffee farms.
+                                    </p>
+
+                                </div>
+
+                            </div>
+
+
+                            <div class="experience-feature">
+
+                                <span class="feature-icon">
+                                    <i class="fa-solid fa-fire-flame-curved"></i>
+                                </span>
+
+                                <div>
+
+                                    <h4>
+                                        Small Batch Roasting
+                                    </h4>
+
+                                    <p>
+                                        Roasted carefully to reveal
+                                        each bean's character.
+                                    </p>
+
+                                </div>
+
+                            </div>
+
+
+                            <div class="experience-feature">
+
+                                <span class="feature-icon">
+                                    <i class="fa-solid fa-heart"></i>
+                                </span>
+
+                                <div>
+
+                                    <h4>
+                                        Made With Intention
+                                    </h4>
+
+                                    <p>
+                                        Every cup prepared with
+                                        patience and precision.
+                                    </p>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+
+                        <a href="#contact" class="primary-btn">
+
+                            Visit LuxeBean
+
+                            <span class="btn-icon">
+                                <i class="fa-solid fa-arrow-right"></i>
+                            </span>
+
+                        </a>
+
+                    </div>
+
+
+
+                    <!-- Experience Visual -->
+
+                    <div class="experience-visual">
+
+                        <div class="experience-main-image">
+
+                            <img
+                                src="https://images.unsplash.com/photo-1501339847302-ac426a4a7cbb?auto=format&fit=crop&w=1200&q=90"
+                                alt="LuxeBean coffee bar"
+                                loading="lazy"
+                            >
+
+                        </div>
+
+
+                        <div class="experience-floating-image">
+
+                            <img
+                                src="https://images.unsplash.com/photo-1498804103079-a6351b050096?auto=format&fit=crop&w=700&q=90"
+                                alt="Coffee being prepared"
+                                loading="lazy"
+                            >
+
+                        </div>
+
+
+                        <div class="coffee-steam steam-one"></div>
+                        <div class="coffee-steam steam-two"></div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- =========================================
+             TESTIMONIAL
+        ========================================== -->
+
+        <section class="testimonial-section section-padding">
+
+            <div class="container">
+
+                <div class="testimonial-card">
+
+                    <div class="quote-mark">
+                        “
+                    </div>
+
+
+                    <div class="testimonial-content">
+
+                        <div class="stars">
+
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+
+                        </div>
+
+
+                        <blockquote>
+
+                            The kind of coffee that makes you
+                            stop checking your phone and simply
+                            enjoy the moment.
+
+                        </blockquote>
+
+
+                        <div class="testimonial-author">
+
+                            <div class="author-avatar">
+                                <img
+                                    src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=200&q=80"
+                                    alt="Customer"
+                                >
+                            </div>
+
+                            <div>
+
+                                <strong>
+                                    Olivia Carter
+                                </strong>
+
+                                <span>
+                                    LuxeBean regular
+                                </span>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- =========================================
+             NEWSLETTER
+        ========================================== -->
+
+        <section class="newsletter-section">
+
+            <div class="container">
+
+                <div class="newsletter-card">
+
+                    <div class="newsletter-decoration"></div>
+
+                    <div class="newsletter-content">
+
+                        <span class="newsletter-label">
+                            JOIN THE LUXEBEAN CLUB
+                        </span>
+
+                        <h2>
+                            Good coffee.
+                            <span>Good mornings.</span>
+                        </h2>
+
+                        <p>
+                            Get new roast drops, coffee stories
+                            and exclusive offers delivered to your inbox.
+                        </p>
+
+                    </div>
+
+
+                    <form class="newsletter-form" id="newsletterForm">
+
+                        <div class="newsletter-input">
+
+                            <i class="fa-regular fa-envelope"></i>
+
+                            <input
+                                type="email"
+                                placeholder="Your email address"
+                                required
+                            >
+
+                        </div>
+
+                        <button type="submit">
+
+                            Subscribe
+
+                            <i class="fa-solid fa-arrow-right"></i>
+
+                        </button>
+
+                    </form>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- =========================================
+             CONTACT
+        ========================================== -->
+
+        <section
+            class="contact-section section-padding"
+            id="contact"
+        >
+
+            <div class="container">
+
+                <div class="contact-grid">
+
+
+                    <div class="contact-content">
+
+                        <div class="eyebrow">
+
+                            <span class="eyebrow-line"></span>
+
+                            <span>
+                                COME SAY HELLO
+                            </span>
+
+                        </div>
+
+
+                        <h2>
+                            Your table
+                            <span>is waiting.</span>
+                        </h2>
+
+
+                        <p>
+                            Whether you're here for your morning
+                            espresso, an afternoon catch-up or simply
+                            a quiet moment — we'd love to see you.
+                        </p>
+
+
+                        <div class="contact-details">
+
+                            <div class="contact-item">
+
+                                <span>
+                                    <i class="fa-solid fa-location-dot"></i>
+                                </span>
+
+                                <div>
+
+                                    <small>
+                                        FIND US
+                                    </small>
+
+                                    <strong>
+                                        128 Artisan Avenue,
+                                        Downtown
+                                    </strong>
+
+                                </div>
+
+                            </div>
+
+
+                            <div class="contact-item">
+
+                                <span>
+                                    <i class="fa-regular fa-clock"></i>
+                                </span>
+
+                                <div>
+
+                                    <small>
+                                        OPEN DAILY
+                                    </small>
+
+                                    <strong>
+                                        7:00 AM — 10:00 PM
+                                    </strong>
+
+                                </div>
+
+                            </div>
+
+
+                            <div class="contact-item">
+
+                                <span>
+                                    <i class="fa-solid fa-phone"></i>
+                                </span>
+
+                                <div>
+
+                                    <small>
+                                        CALL US
+                                    </small>
+
+                                    <strong>
+                                        +1 (555) 284-LUXE
+                                    </strong>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+
+
+                    <!-- Contact Form -->
+
+                    <div class="contact-form-card">
+
+                        <div class="form-header">
+
+                            <span>
+                                HAVE A QUESTION?
+                            </span>
+
+                            <h3>
+                                Let's talk coffee.
+                            </h3>
+
+                        </div>
+
+
+                        <form id="contactForm">
+
+                            <div class="form-row">
+
+                                <div class="form-group">
+
+                                    <label for="name">
+                                        Your Name
+                                    </label>
+
+                                    <input
+                                        type="text"
+                                        id="name"
+                                        name="name"
+                                        placeholder="John Doe"
+                                        required
+                                    >
+
+                                </div>
+
+
+                                <div class="form-group">
+
+                                    <label for="email">
+                                        Email Address
+                                    </label>
+
+                                    <input
+                                        type="email"
+                                        id="email"
+                                        name="email"
+                                        placeholder="john@example.com"
+                                        required
+                                    >
+
+                                </div>
+
+                            </div>
+
+
+                            <div class="form-group">
+
+                                <label for="subject">
+                                    Subject
+                                </label>
+
+                                <select
+                                    id="subject"
+                                    name="subject"
+                                >
+
+                                    <option value="">
+                                        Choose a topic
+                                    </option>
+
+                                    <option value="general">
+                                        General Question
+                                    </option>
+
+                                    <option value="catering">
+                                        Catering
+                                    </option>
+
+                                    <option value="partnership">
+                                        Partnership
+                                    </option>
+
+                                    <option value="feedback">
+                                        Feedback
+                                    </option>
+
+                                </select>
+
+                            </div>
+
+
+                            <div class="form-group">
+
+                                <label for="message">
+                                    Message
+                                </label>
+
+                                <textarea
+                                    id="message"
+                                    name="message"
+                                    rows="5"
+                                    placeholder="Tell us what's on your mind..."
+                                    required
+                                ></textarea>
+
+                            </div>
+
+
+                            <button
+                                type="submit"
+                                class="form-submit"
+                            >
+
+                                Send Message
+
+                                <span>
+                                    <i class="fa-solid fa-arrow-right"></i>
+                                </span>
+
+                            </button>
+
+                        </form>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+
+    <!-- =========================================
+         FOOTER
+    ========================================== -->
+
+    <footer class="site-footer">
+
+        <div class="container">
+
+
+            <div class="footer-top">
+
+
+                <!-- Footer Brand -->
+
+                <div class="footer-brand">
+
+                    <a href="#home" class="brand-logo">
+
+                        <span class="brand-icon">
+                            <i class="fa-solid fa-mug-hot"></i>
+                        </span>
+
+                        <span class="brand-text">
+                            Luxe<span>Bean</span>
+                        </span>
+
+                    </a>
+
+
+                    <p>
+                        Specialty coffee,
+                        thoughtfully crafted.
+                    </p>
+
+
+                    <div class="social-links">
+
+                        <a
+                            href="#"
+                            aria-label="Instagram"
+                        >
+                            <i class="fa-brands fa-instagram"></i>
+                        </a>
+
+                        <a
+                            href="#"
+                            aria-label="Facebook"
+                        >
+                            <i class="fa-brands fa-facebook-f"></i>
+                        </a>
+
+                        <a
+                            href="#"
+                            aria-label="TikTok"
+                        >
+                            <i class="fa-brands fa-tiktok"></i>
+                        </a>
+
+                    </div>
+
+                </div>
+
+
+
+                <!-- Footer Navigation -->
+
+                <div class="footer-column">
+
+                    <h4>
+                        Explore
+                    </h4>
+
+                    <a href="#story">
+                        Our Story
+                    </a>
+
+                    <a href="#menu">
+                        Menu
+                    </a>
+
+                    <a href="#experience">
+                        Experience
+                    </a>
+
+                    <a href="#contact">
+                        Contact
+                    </a>
+
+                </div>
+
+
+
+                <!-- Footer Information -->
+
+                <div class="footer-column">
+
+                    <h4>
+                        Visit
+                    </h4>
+
+                    <span>
+                        128 Artisan Avenue
+                    </span>
+
+                    <span>
+                        Downtown
+                    </span>
+
+                    <span>
+                        7 AM — 10 PM Daily
+                    </span>
+
+                </div>
+
+
+
+                <!-- Footer CTA -->
+
+                <div class="footer-column footer-cta">
+
+                    <h4>
+                        Stay in the loop
+                    </h4>
+
+                    <p>
+                        New roasts, special events
+                        and coffee stories.
+                    </p>
+
+                    <a href="#contact" class="footer-link">
+
+                        Get in touch
+
+                        <i class="fa-solid fa-arrow-right"></i>
+
+                    </a>
+
+                </div>
+
+            </div>
+
+
+
+            <div class="footer-bottom">
+
+                <span>
+                    © 2026 LuxeBean Coffee Co.
+                </span>
+
+                <span>
+                    Crafted with passion.
+                </span>
+
+            </div>
+
+        </div>
+
+    </footer>
+
+
+
+    <!-- =========================================
+         SHOPPING CART DRAWER
+    ========================================== -->
+
+    <div class="cart-overlay" id="cartOverlay"></div>
+
+
+    <aside class="cart-drawer" id="cartDrawer">
+
+        <div class="cart-header">
+
+            <div>
+
+                <span>
+                    YOUR BAG
+                </span>
+
+                <h3>
+                    Coffee order
+                </h3>
+
+            </div>
+
+            <button
+                id="closeCart"
+                aria-label="Close cart"
+            >
+                <i class="fa-solid fa-xmark"></i>
+            </button>
+
+        </div>
+
+
+        <div class="cart-items" id="cartItems">
+
+            <div class="empty-cart">
+
+                <span class="empty-cart-icon">
+                    <i class="fa-solid fa-mug-hot"></i>
+                </span>
+
+                <h4>
+                    Your bag is empty
+                </h4>
+
+                <p>
+                    Add something delicious from our menu.
+                </p>
+
+                <a href="#menu" class="primary-btn close-cart-link">
+                    Explore Menu
+                </a>
+
+            </div>
+
+        </div>
+
+
+        <div class="cart-footer">
+
+            <div class="cart-total">
+
+                <span>
+                    Subtotal
+                </span>
+
+                <strong id="cartTotal">
+                    $0.00
+                </strong>
+
+            </div>
+
+            <button class="checkout-btn">
+                Proceed to Checkout
+                <i class="fa-solid fa-arrow-right"></i>
+            </button>
+
+        </div>
+
+    </aside>
+
+
+
+    <!-- =========================================
+         TOAST NOTIFICATION
+    ========================================== -->
+
+    <div class="toast" id="toast">
+
+        <span class="toast-icon">
+            <i class="fa-solid fa-check"></i>
+        </span>
+
+        <div>
+
+            <strong>
+                Added to your bag
+            </strong>
+
+            <span id="toastMessage">
+                Your coffee is ready.
+            </span>
+
+        </div>
+
+    </div>
+
+
+
+    <!-- =========================================
+         SCROLL TO TOP
+    ========================================== -->
+
+    <button
+        class="scroll-top"
+        id="scrollTop"
+        aria-label="Scroll to top"
+    >
+        <i class="fa-solid fa-arrow-up"></i>
+    </button>
+
+
+
+    <!-- =========================================
+         JAVASCRIPT
+    ========================================== -->
+
+    <script src="script.js"></script>
+
+</body>
+</html>
